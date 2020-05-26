@@ -1,8 +1,9 @@
-# Lesson 1
+# Lesson 1: Getting Started
 
 1. Prerequisites:
 
-* Install [NodeJS](https://nodejs.org/). Includes a JavaScript runtime and [npm](https://www.npmjs.com/).
+    * Install [NodeJS](https://nodejs.org/). It includes a JavaScript runtime and [npm](https://www.npmjs.com/) to manage
+      package installations (and also install TypeScript).
 
 1. Install TypeScript (you must have ):
 

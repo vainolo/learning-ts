@@ -1,0 +1,32 @@
+# Lesson 2: Types and Variables
+
+## Types
+
+TypeScript uses [gradual typing](https://en.wikipedia.org/wiki/Gradual_typing), which means that
+you can use types if you want to get the added security that strong types provide you, but if you
+don't want that you can work completely without types just like JavaScript.
+
+The language has a number of basic built-in types such as `boolean`, `number`, `string`, and more
+complex built-in types like `array`, `tuple`, and `enum`.
+
+TypeScript uses and OOP class-based approach to define new types, unlike the prototype-based approach
+which is used by JavaScript. We will deal with classes in a later lesson.
+
+## Variable declaration
+
+A variable is declared using the `let` keyword, the name of the variable, an optional type, and an
+optional initial value:
+
+```typescript
+let a = 1;                              // no type defined
+let b: number;                          // b is of type number with no initial value
+let c: string  = "hello";               // c is of type string and has the initial value "hello"
+let d: number[] = [1, 2, 3];            // d is of type number[] and has the initial value [1 ,2, 3]
+let e: Array<number> = [1, 2, 3];       // another way to define an array
+let f: [boolean, number] = [true, 5];   // f is a tuple containing a boolean that is true and a number that is 5
+let g: any;                             // g can be assigned a value of any type
+```
+
+So let's see what we can do with the variable that we defined:
+
+```typescript
