@@ -27,6 +27,10 @@ let f: [boolean, number] = [true, 5];   // f is a tuple containing a boolean tha
 let g: any;                             // g can be assigned a value of any type
 ```
 
-So let's see what we can do with the variable that we defined:
+When a variable is declared without a type (as `a`), the type is assigned the moment the variable is assigned a value. In
+this case it when it is initialized, when  it is assigned the `number` type. Another item of interest is variable `g`,
+where we are telling the compiler "hey, I know what I'm doing here and don't need your help making sure my types make
+sense". I prefer to use types because it protects me from stupid mistakes, and allows the IDE and other environments to
+give you more help (like autocomplete) that sometimes can't be done without types. There's no verdict on the
+`typed` vs. `untyped` discussion, but since we are in TypeScript, we will be using types :-).
 
-```typescript
