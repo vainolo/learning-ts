@@ -5,7 +5,7 @@
     * Install [NodeJS](https://nodejs.org/). It includes a JavaScript runtime and [npm](https://www.npmjs.com/) to manage
       package installations (and also install TypeScript).
 
-1. Install TypeScript (you must have ):
+1. Install TypeScript:
 
 ```Powershell
 > npm install -g typescript
